@@ -1,1 +1,5 @@
+eureka:
+  instance:
+    hostname: localhost
+    ip-address: true
 
