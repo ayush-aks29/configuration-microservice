@@ -2,9 +2,9 @@ spring:
   application:
     name: config-default
 eureka:
-  instance:
-    hostname: localhost
-    ip-address: true
+  instance:
+    prefer-ip-address: true
+    hostname: localhost
   client:
     fetchRegistry: true
     registerWithEureka: true
